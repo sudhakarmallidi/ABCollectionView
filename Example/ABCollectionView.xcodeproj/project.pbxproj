@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		128D5B9C5BCC1AA991F6F020 /* ABCollectionView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ABCollectionView.podspec; path = ../ABCollectionView.podspec; sourceTree = "<group>"; };
+		128D5B9C5BCC1AA991F6F020 /* ABCollectionView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ABCollectionView.podspec; path = ../ABCollectionView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1DF2A1DFC0D5A53CC26BA4E0 /* Pods-ABCollectionView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABCollectionView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ABCollectionView_Tests/Pods-ABCollectionView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		277937DB9FCA0D2BDD1DA371 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		277937DB9FCA0D2BDD1DA371 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3919B7B01ED0BB861745FF11 /* Pods-ABCollectionView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABCollectionView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ABCollectionView_Example/Pods-ABCollectionView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ABCollectionView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABCollectionView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7439EC219B2625A285DC829D /* Pods_ABCollectionView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABCollectionView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E7E075C038EF6F53AAB83BE /* Pods-ABCollectionView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABCollectionView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ABCollectionView_Tests/Pods-ABCollectionView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B3C3A9721C1FB1525AC3C637 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B3C3A9721C1FB1525AC3C637 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EC64FB611FCD63F066D95EAE /* Pods-ABCollectionView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABCollectionView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ABCollectionView_Example/Pods-ABCollectionView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F0D3428B35088F2ED42F9C5B /* Pods_ABCollectionView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABCollectionView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -482,6 +482,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ABCollectionView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -497,6 +498,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ABCollectionView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

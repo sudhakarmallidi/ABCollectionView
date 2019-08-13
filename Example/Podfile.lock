@@ -1,0 +1,16 @@
+PODS:
+  - ABCollectionView (0.1.0)
+
+DEPENDENCIES:
+  - ABCollectionView (from `../`)
+
+EXTERNAL SOURCES:
+  ABCollectionView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ABCollectionView: 79704dc5e64986a31741a471622555417d684030
+
+PODFILE CHECKSUM: 51f6165c9e74f5b3118faa35dc34a4a103e87c1a
+
+COCOAPODS: 1.5.3

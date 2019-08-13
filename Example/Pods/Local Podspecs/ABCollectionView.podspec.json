@@ -1,0 +1,28 @@
+{
+  "name": "ABCollectionView",
+  "version": "0.1.0",
+  "summary": "A short description of ABCollectionView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sudhakarmallidi@gmail.com/ABCollectionView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sudhakarmallidi@gmail.com": "sudhakarmallidi@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/sudhakarmallidi@gmail.com/ABCollectionView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ABCollectionView/Classes/**/*",
+  "resource_bundles": {
+    "ABCollectionView": [
+      "ABCollectionView/Assets/*"
+    ]
+  },
+  "frameworks": "UIKit"
+}
